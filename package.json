@@ -6,8 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --config webpack.prod.js",
     "dev": "webpack serve --open --config webpack.dev.js",
-    "test": "jest",
-    "precompile": "nunjucks-precompile ./src/views"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
@@ -45,7 +44,6 @@
   "dependencies": {
     "alpine-router": "^0.1.2",
     "global": "^4.4.0",
-    "lodash": "^4.17.21",
-    "nunjucks": "^3.2.3"
+    "lodash": "^4.17.21"
   }
 }
